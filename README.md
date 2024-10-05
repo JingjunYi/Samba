@@ -1,4 +1,4 @@
-# Samba: Severity-aware Recurrent Modeling for Cross-domain Medical Image Grading
+# [NeurIPS 2024] Samba: Severity-aware Recurrent Modeling for Cross-domain Medical Image Grading
 
 This is the official implementation of our work entitled as ```Samba: Severity-aware Recurrent Modeling for Cross-domain Medical Image Grading```, which has been accepted by ```NeurIPS 2024```.
 
