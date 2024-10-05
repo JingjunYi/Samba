@@ -11,6 +11,7 @@ If you find the proposed Samba is useful for your task please cite our work as f
   title={Samba: Severity-aware Recurrent Modeling for Cross-domain Medical Image Grading},
   author={Bi, Qi and Yi, Jingjun and Zheng, Hao and Ji, Wei and Zhan, Haolan and Huang, Yawen and Li, Yuexiang and Zheng, Yefeng},
   booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  volume={37},
   year={2024}
 }
 ```
