@@ -2,7 +2,7 @@
 
 This is the official implementation of our work entitled as ```Samba: Severity-aware Recurrent Modeling for Cross-domain Medical Image Grading```, which has been accepted by ```NeurIPS 2024```.
 
-## Cite the proposed BWG
+## Cite the proposed Samba
 
 If you find the proposed Samba is useful for your task please cite our work as follows:
 
