@@ -1,0 +1,15 @@
+# train
+python main.py --cfg configs/vssm1/vssm_base_224.yaml --resume pretrain/vssm_base_0229_ckpt_epoch_237.pth --batch-size 16 --data-path G:/NeruIPS2024/datasets/DGDR/reimages/APTOS --output outputs/vssm_base_APTOS
+python main.py --cfg configs/vssm1/vssm_base_224.yaml --resume pretrain/vssm_base_0229_ckpt_epoch_237.pth --batch-size 16 --data-path G:/NeruIPS2024/datasets/DGDR/reimages/DEEPDR --output outputs/vssm_base_DEEPDR
+python main.py --cfg configs/vssm1/vssm_base_224.yaml --resume pretrain/vssm_base_0229_ckpt_epoch_237.pth --batch-size 16 --data-path G:/NeruIPS2024/datasets/DGDR/reimages/DEEPDR --output outputs/vssm_base_FGADR
+python main.py --cfg configs/vssm1/vssm_base_224.yaml --resume pretrain/vssm_base_0229_ckpt_epoch_237.pth --batch-size 16 --data-path G:/NeruIPS2024/datasets/DGDR/reimages/DEEPDR --output outputs/vssm_base_IDRID
+python main.py --cfg configs/vssm1/vssm_base_224.yaml --resume pretrain/vssm_base_0229_ckpt_epoch_237.pth --batch-size 16 --data-path G:/NeruIPS2024/datasets/DGDR/reimages/DEEPDR --output outputs/vssm_base_MESSIDOR
+python main.py --cfg configs/vssm1/vssm_base_224.yaml --resume pretrain/vssm_base_0229_ckpt_epoch_237.pth --batch-size 16 --data-path G:/NeruIPS2024/datasets/DGDR/reimages/DEEPDR --output outputs/vssm_base_RLDR
+
+# eval
+python main.py --cfg configs/vssm1/vssm_base_224.yaml --resume outputs/vssm_base_APTOS/vssm1_base_0229/20240323152601/ckpt_epoch_299.pth --batch-size 16 --data-path G:/NeruIPS2024/datasets/DGDR/sdg_reimages/no_APTOS --output results/vssm_base_APTOS --eval
+python main.py --cfg configs/vssm1/vssm_base_224.yaml --resume outputs/vssm_base_APTOS/vssm1_base_0229/20240323152601/ckpt_epoch_299.pth --batch-size 16 --data-path G:/NeruIPS2024/datasets/DGDR/sdg_reimages/no_DEEPDR --output results/vssm_base_DEEPDR --eval
+python main.py --cfg configs/vssm1/vssm_base_224.yaml --resume outputs/vssm_base_APTOS/vssm1_base_0229/20240323152601/ckpt_epoch_299.pth --batch-size 16 --data-path G:/NeruIPS2024/datasets/DGDR/sdg_reimages/no_FGADR --output results/vssm_base_FGADR --eval
+python main.py --cfg configs/vssm1/vssm_base_224.yaml --resume outputs/vssm_base_APTOS/vssm1_base_0229/20240323152601/ckpt_epoch_299.pth --batch-size 16 --data-path G:/NeruIPS2024/datasets/DGDR/sdg_reimages/no_IDRID --output results/vssm_base_IDRID --eval
+python main.py --cfg configs/vssm1/vssm_base_224.yaml --resume outputs/vssm_base_APTOS/vssm1_base_0229/20240323152601/ckpt_epoch_299.pth --batch-size 16 --data-path G:/NeruIPS2024/datasets/DGDR/sdg_reimages/no_MESSIDOR --output results/vssm_base_MESSIDOR --eval
+python main.py --cfg configs/vssm1/vssm_base_224.yaml --resume outputs/vssm_base_APTOS/vssm1_base_0229/20240323152601/ckpt_epoch_299.pth --batch-size 16 --data-path G:/NeruIPS2024/datasets/DGDR/sdg_reimages/no_RLDR --output results/vssm_base_RLDR --eval
