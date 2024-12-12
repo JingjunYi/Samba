@@ -8,11 +8,19 @@ Please refer to the ```requirements.txt``` file in this project.
 
 ## Training
 
-to be updated soon.
+An command example to train the model when using ```APTOS``` as the source domain is:
+
+```python main_fundus.py --cfg configs/vssm1/vssm_base_224.yaml --resume pretrain/vssm_base_0229_ckpt_epoch_237.pth --batch-size 16 --data-path G:/NeruIPS2024/datasets/DGDR/reimages/APTOS --output outputs/vssm_base_APTOS_em --dataset fundus```
+
+Please remember to change the file folder to your own.
 
 ## Inference
 
-to be updated soon.
+An command example to infer the model when using ```DEEPDR``` as the unseen target domain is:
+
+```python main_fundus.py --cfg configs/vssm1/vssm_base_224.yaml --resume outputs_fundus_ema/vssm_base_DEEPDR_em/vssm1_base_0229/20240329143126/ckpt_epoch_299.pth --batch-size 16 --data-path G:/NeruIPS2024/datasets/DGDR/sdg_reimages/no_DEEPDR --output results/vssm_base_DEEPDR_em --eval --dataset fundus```
+
+Please remember to change the file folder to your own.
 
 # Acknowledgement
 
